@@ -3,12 +3,12 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   images: {
-    domains: [], // Adicione domínios permitidos para carregar imagens externas
-    formats: ["image/avif", "image/webp"], // Suporte a formatos modernos de imagens
+    domains: [],
+    formats: ["image/avif", "image/webp"],
   },
   i18n: {
-    locales: ["en", "pt", "es", "fr"], // Idiomas suportados
-    defaultLocale: "en", // Idioma padrão
+    locales: ["en", "pt", "es", "fr"],
+    defaultLocale: "en",
   },
 };
 
