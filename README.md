@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PersonalPage2.0 - Wagner Rafael
 
-## Getting Started
+Bem-vindo ao repositório do **PersonalPage2.0**! Este projeto é uma versão aprimorada (EM DESENVOLVIMENTO) e escalável do meu portfólio, exibindo minhas habilidades, projetos e experiências na área de desenvolvimento Full-Stack e Engenharia de IA. O portfólio foi redesenhado para oferecer uma interface moderna, responsiva e com suporte a múltiplos idiomas.
 
-First, run the development server:
+## 📋 Seções
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O portfólio é dividido nas seguintes seções:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Home**: Introdução e saudação.
+- **About Me**: Informações sobre minha experiência, habilidades e formação.
+- **Services**: Serviços oferecidos, como desenvolvimento web, SEO, administração de bancos de dados, entre outros.
+- **Projects**: Galeria de projetos realizados com links diretos para repositórios e/ou demonstrações.
+- **Contact Me**: Formulário de contato para facilitar a comunicação.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Tecnologias Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **React** e **Next.js** para a interface e funcionalidades modernas.
+- **TypeScript** para maior robustez e manutenção do código.
+- **Tailwind CSS** para estilização responsiva e eficiente.
+- **Framer Motion** para animações suaves e interativas (ex.: rolagem 3D).
+- **Internacionalização (i18n)** usando `next-i18next` com suporte a múltiplos idiomas.
+- **EmailJS** para envio de formulários diretamente do frontend.
+- **Vercel** para deploy otimizado e hosting.
 
-## Learn More
+## 🖼️ Projetos em Destaque
 
-To learn more about Next.js, take a look at the following resources:
+Os projetos destacados na seção **Projects** incluem:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. [ChatBot Jarvis](https://aiexxplorer.github.io/ChatBot-Jarvis/)
+2. [Acervo de Tecnologia](https://github.com/AIExxplorer/ACERVO_DE_TECNOLOGIA)
+3. [Acervo de Psicologia](https://github.com/AIExxplorer/ACERVO_DE_PSICOLOGIA)
+4. [Acervo de Medicina Veterinária](https://github.com/AIExxplorer/ACERVO_DE_MEDICINA_VETERINARIA)
+5. [Organização Artificial Universe](https://github.com/Artificial-Universe?view_as=public)
+6. [Livro Como Pensar](https://a.co/d/80By264)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌍 Internacionalização
 
-## Deploy on Vercel
+O PersonalPage2.0 oferece suporte para os seguintes idiomas:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Português
+- Inglês
+- Espanhol
+- Francês
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+A troca de idiomas é realizada dinamicamente no cabeçalho do site.
+
+## 📞 Contato
+
+Para entrar em contato comigo, você pode utilizar o formulário de contato no portfólio ou as seguintes redes sociais:
+
+- [LinkedIn](https://linkedin.com/in/AIExxplorer)
+- [GitHub](https://github.com/AIExxplorer)
+- [Instagram](https://www.instagram.com/artificialuniverseorg/)
+
+---
+
+### 📜 Licença
+
+Este projeto está licenciado sob os termos da [MIT License](./LICENSE).
+
+### Desenvolvido com ❤️ por Wagner Rafael - AIExxplorer
