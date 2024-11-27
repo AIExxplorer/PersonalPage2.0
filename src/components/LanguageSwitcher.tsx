@@ -9,7 +9,14 @@ const LanguageSwitcher = () => {
   // Função para criar links com o idioma selecionado
   const createLocaleLink = (locale: string) => {
     const segments = pathname.split("/").filter(Boolean);
-    segments[0] = locale; // Substitui o idioma no início da URL
+
+    // Verifica se o primeiro segmento é um idioma válido
+    const locales = ["en", "pt", "es", "fr"];
+    if (locales.includes(segments[0])) {
+      segments[0] = locale; // Substitui o idioma no início da URL
+    } else {
+      segments.unshift(locale); // Adiciona o idioma no início da URL
+    }
     return `/${segments.join("/")}`;
   };
 

@@ -1,7 +1,4 @@
 export default function Home() {
-  return (
-    <div className="bg-background text-foreground p-4">
-      Tailwind funcionando perfeitamente!
-    </div>
-  );
-}
+    return <h1>Welcome to PersonalPage 2.0</h1>;
+  }
+  
