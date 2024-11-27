@@ -2,13 +2,15 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  swcMinify: true,
   images: {
     domains: [],
     formats: ["image/avif", "image/webp"],
   },
   i18n: {
-    locales: ["en", "pt", "es", "fr"], // Idiomas suportados
-    defaultLocale: "en", // Define o inglês como idioma padrão
+    locales: ["us", "pt", "es", "fr"], 
+    defaultLocale: "us", 
+    localeDetection: false,
   },
 };
 

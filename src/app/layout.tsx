@@ -1,19 +1,26 @@
-import Sidebar from "../components/Sidebar";
+import "./globals.css";
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
-      <head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/assets/images/favicon.ico" />
-        <title>PersonalPage 2.0</title>
-      </head>
-      <body className="flex">
-        {/* Sidebar */}
-        <Sidebar />
-        {/* Main Content */}
-        <main className="flex-1 bg-gray-900 text-white min-h-screen">{children}</main>
+      <body>
+        <header>
+          <nav>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main>{children}</main>
+        <footer>
+          <p>© 2024 PersonalPage 2.0</p>
+        </footer>
       </body>
     </html>
   );

@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 const PUBLIC_FILE = /\.(.*)$/; // Arquivos públicos, como imagens e estilos
-const SUPPORTED_LOCALES = ["en", "pt", "es", "fr"]; // Idiomas suportados
+const SUPPORTED_LOCALES = ["us", "pt", "es", "fr"]; // Idiomas suportados
 
 export function middleware(req: NextRequest) {
   const { nextUrl } = req;
