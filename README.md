@@ -1,3 +1,7 @@
+### ATUALIZAÇÕES: Preparação para iniciar o front-end - 28/11/24
+
+--- 
+
 # PersonalPage2.0 - Wagner Rafael
 
 Bem-vindo ao repositório do **PersonalPage2.0**! Este projeto é uma versão aprimorada (EM DESENVOLVIMENTO) e escalável do meu portfólio, exibindo minhas habilidades, projetos e experiências na área de desenvolvimento Full-Stack e Engenharia de IA. O portfólio foi redesenhado para oferecer uma interface moderna, responsiva e com suporte a múltiplos idiomas.
