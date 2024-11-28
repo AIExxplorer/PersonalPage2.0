@@ -4,6 +4,7 @@ const config: Config = {
   content: [
     "./src/app/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
+    "./public/**/*.{html,js}", // Incluindo arquivos públicos, se necessário
   ],
   theme: {
     extend: {
@@ -14,6 +15,9 @@ const config: Config = {
         gray: {
           900: "#1d1f22",
         },
+      },
+      fontFamily: {
+        sans: ["Poppins", "sans-serif"],
       },
     },
   },
