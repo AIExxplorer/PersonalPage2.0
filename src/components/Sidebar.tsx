@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Sidebar() {
@@ -5,9 +6,11 @@ export default function Sidebar() {
     <aside className="w-64 bg-black text-white flex flex-col">
       {/* Logo AIExxplorer */}
       <div className="logo-container py-6 flex justify-center">
-        <img
+        <Image
           src="/assets/images/LOGO_AIEXXPLORER.png"
           alt="AIExxplorer Logo"
+          width={128}
+          height={128}
           className="w-32"
         />
       </div>
@@ -38,9 +41,11 @@ export default function Sidebar() {
 
       {/* Logo Artificial Universe */}
       <div className="logo-container py-6 flex justify-center">
-        <img
+        <Image
           src="/assets/images/LOGO_AU.png"
           alt="Artificial Universe Logo"
+          width={128}
+          height={128}
           className="w-32"
         />
       </div>
