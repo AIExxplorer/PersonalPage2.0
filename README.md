@@ -1,4 +1,4 @@
-### ATUALIZAÇÕES: Preparação para iniciar o front-end - 28/11/24
+### ATUALIZAÇÕES: Preparação para iniciar o front-end - 30/11/24
 
 --- 
 
