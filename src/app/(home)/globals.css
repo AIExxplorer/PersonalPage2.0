@@ -1,30 +1,55 @@
-export default function Home() {
-  return (
-    <div className="p-8 flex flex-col items-center justify-center text-center h-screen space-y-6">
-      <h1 className="text-4xl font-bold text-blue-500">
-        Hi! I&apos;m <span className="text-white">Wagner Rafael</span>,
-      </h1>
-      <h2 className="text-2xl text-gray-300">
-        A <span className="text-blue-500">Full-Stack Developer & AI Engineer</span>
-      </h2>
-      <p className="text-gray-400">
-        Specialized in innovative and collaborative technology solutions.
-        Passionate about AI, open-source, and career development.
-      </p>
-      <div className="flex space-x-4">
-        <a href="https://github.com/AIExxplorer" className="btn-primary">
-          GitHub
-        </a>
-        <a href="https://linkedin.com/in/AIExxplorer" className="btn-primary">
-          LinkedIn
-        </a>
-        <a
-          href="https://drive.google.com/file/d/1OgVRWREYpLHASZvDdHZybzfwq3cP8ybD/view?usp=sharing"
-          className="btn-primary"
-        >
-          Download CV
-        </a>
-      </div>
-    </div>
-  );
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "swiper/css";
+@import "swiper/css/effect-cube";
+@import "swiper/css/navigation";
+
+/* Estilos globais do corpo */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #1d1f22;
+  color: white;
+}
+
+/* Estilo para elementos auxiliares */
+.slide-help {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* Ajustando estilos globais */
+@layer base {
+  :root {
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  body {
+    @apply bg-gray-900 text-white font-sans;
+  }
+
+  button {
+    @apply px-4 py-2 rounded-md bg-blue-500 text-white hover:bg-blue-600;
+  }
+}
+
+/* Botões primários */
+@layer components {
+  .btn-primary {
+    @apply bg-blue-500 text-white rounded-md px-4 py-2 hover:bg-blue-600;
+  }
 }

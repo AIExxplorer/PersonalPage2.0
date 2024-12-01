@@ -1,18 +1,13 @@
-import "src/app/(home)/globals.css";
+import "../(home)/globals.css"; // Ajuste conforme necessário
 import { ReactNode } from "react";
 
 export const metadata = {
-  title: "Personal Page",
-  description: "A personal portfolio built with Next.js",
+  title: "Next.js",
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function Layout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </head>
       <body>{children}</body>
     </html>
   );
