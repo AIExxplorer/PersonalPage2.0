@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "swiper/css";
+@import "swiper/css/effect-cube";
+@import "swiper/css/navigation";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #1d1f22;
+  color: white;
+}
+
+@layer base {
+  :root {
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+  }
+
+  body {
+    @apply bg-gray-900 text-white font-sans;
+  }
+
+  button {
+    @apply px-4 py-2 rounded-md bg-blue-500 text-white hover:bg-blue-600;
+  }
+}
