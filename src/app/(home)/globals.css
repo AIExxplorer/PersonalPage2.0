@@ -53,3 +53,10 @@ body {
     @apply bg-blue-500 text-white rounded-md px-4 py-2 hover:bg-blue-600;
   }
 }
+
+/* Utilitários adicionais */
+@layer utilities {
+  .shadow-primary {
+    @apply shadow-lg shadow-blue-500/50;
+  }
+}

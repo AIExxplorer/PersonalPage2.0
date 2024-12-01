@@ -4,19 +4,19 @@ import typography from "@tailwindcss/typography";
 import animate from "tailwindcss-animate";
 
 const config: Config = {
-  darkMode: ["class"], // Suporte a modo escuro via classe
+  darkMode: "class", // Ativação do modo escuro
   content: [
-    "./src/**/*.{js,ts,jsx,tsx}", // Incluindo todos os arquivos dentro de src
-    "./src/app/(home)/globals.css", // Certifique-se que o caminho para o CSS global está correto
+    "./src/**/*.{js,ts,jsx,tsx}", // Todos os arquivos em src
+    "./src/app/(home)/globals.css", // Caminho para o CSS global
   ],
   theme: {
     extend: {
       colors: {
         blue: {
-          500: "#3257d1", // Azul principal
+          500: "#3257d1",
         },
         gray: {
-          900: "#1d1f22", // Fundo escuro
+          900: "#1d1f22",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
@@ -30,18 +30,18 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ["Poppins", "sans-serif"], // Fonte principal
+        sans: ["Poppins", "sans-serif"],
       },
       spacing: {
-        128: "32rem", // Adicionado para uso de layouts maiores
+        128: "32rem",
         144: "36rem",
       },
       borderRadius: {
-        "4xl": "2rem", // Adicionado para bordas mais arredondadas
+        "4xl": "2rem",
       },
     },
   },
-  plugins: [forms, typography, animate], // Plugins instalados e ativos
+  plugins: [forms, typography, animate],
 };
 
 export default config;
