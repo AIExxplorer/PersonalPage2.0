@@ -4,10 +4,10 @@ import typography from "@tailwindcss/typography";
 import animate from "tailwindcss-animate";
 
 const config: Config = {
-  darkMode: "class", // Ativação do modo escuro
+  darkMode: "class",
   content: [
-    "./src/**/*.{js,ts,jsx,tsx}", // Todos os arquivos em src
-    "./src/app/(home)/globals.css", // Caminho para o CSS global
+    "./src/**/*.{js,ts,jsx,tsx,css}",
+    "./src/app/**/*.{js,ts,jsx,tsx,css}",
   ],
   theme: {
     extend: {
@@ -42,6 +42,16 @@ const config: Config = {
     },
   },
   plugins: [forms, typography, animate],
+};
+
+module.exports = {
+  content: [
+    './src/**/*.{js,jsx,ts,tsx}', // Adjust the paths according to your project structure
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 };
 
 export default config;

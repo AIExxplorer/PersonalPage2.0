@@ -1,28 +1,29 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
-    "baseUrl": ".",
+    "target": "ES2020", // Alvo atualizado para melhor compatibilidade
+    "lib": ["DOM", "DOM.Iterable", "ESNext"], // Mantém compatibilidade com APIs modernas
+    "allowJs": true, // Permite usar arquivos JavaScript
+    "skipLibCheck": true, // Ignora verificação de declarações para acelerar a build
+    "strict": true, // Ativa todas as verificações de TypeScript
+    "noEmit": true, // Não emite arquivos .js na compilação
+    "esModuleInterop": true, // Garante compatibilidade com módulos CommonJS e ESModules
+    "module": "ESNext", // Alinha com a versão mais recente do Next.js
+    "moduleResolution": "Node", // Resolve módulos como o Node.js faz
+    "resolveJsonModule": true, // Permite importar arquivos JSON
+    "isolatedModules": true, // Exige que cada arquivo seja isolado
+    "jsx": "preserve", // Preserve JSX para que o Next.js processe corretamente
+    "incremental": true, // Habilita compilações incrementais
+    "baseUrl": ".", // Base para paths relativos
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"] // Alias para evitar caminhos longos
     },
+    "types": ["@types/node", "@types/react", "@types/react-dom"], // Adiciona tipos essenciais
     "plugins": [
       {
         "name": "next"
       }
     ]
   },
-  "include": ["src/**/*", "types/**/*", ".next/types/**/*.ts", "src/app"],
-  "exclude": ["node_modules"]
+  "include": ["src/**/*", "types/**/*", ".next/types/**/*.ts", "src/app"], // Garante inclusão dos arquivos necessários
+  "exclude": ["node_modules", "dist", "build"] // Exclui pastas irrelevantes
 }
