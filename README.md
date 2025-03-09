@@ -1,4 +1,9 @@
-### ATUALIZAÇÕES: Preparação para iniciar o front-end - 30/11/24
+
+[![Status do Projeto](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow.svg)](#)
+
+### ATUALIZAÇÕES: 
+- Preparação para iniciar o front-end • 30/11/24
+- Retorno ao desenvolvimento a partir de 03/2025 devido a motivos de força maior. • 08/03/2025
 
 --- 
 
